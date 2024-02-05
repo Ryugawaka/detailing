@@ -9,9 +9,10 @@
 .price {
   color: #d46502;
   font-weight: 700;
+  margin-top: auto;
 }
 .description {
-  line-height: 18px;
+  line-height: 28px;
   font-weight: 500;
 }
 .name {
@@ -20,7 +21,7 @@
 .info {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
   border-bottom: 2px solid #d46502;
 }
 @media (max-width: 768px) {
