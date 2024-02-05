@@ -1,0 +1,16 @@
+.block {
+  padding: 40px 20%;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.heading {
+  margin-bottom: 40px;
+}
+@media (max-width: 1280px) {
+  .block {
+    padding: 10px 20px;
+  }
+}

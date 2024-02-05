@@ -1,9 +1,13 @@
 import React from "react";
+import { Routes, Route } from "react-router-dom";
+
+import Header from "./ui/Header/Header";
+import Footer from "./ui/Footer/Footer";
+
 import MainPage from "./pages/main";
 import NotFoundPage from "./pages/notFound/notFoundPage";
-import Footer from "./ui/Footer/Footer";
-import Header from "./ui/Header/Header";
-import { Routes, Route } from "react-router-dom";
+import AboutPage from "./pages/about/about";
+import ServicesPage from "./pages/services/services";
 
 function App() {
   return (
@@ -11,7 +15,9 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<MainPage />} />
-        <Route path='/cart' element={<NotFoundPage />} />
+        <Route path='/about' element={<AboutPage />} />
+        <Route path='/services' element={<ServicesPage />} />
+        <Route path='*' element={<NotFoundPage />} />
       </Routes>
       <Footer />
     </>

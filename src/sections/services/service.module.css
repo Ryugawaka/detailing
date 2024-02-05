@@ -1,0 +1,33 @@
+.service {
+  display: flex;
+  gap: 20px;
+}
+.image {
+  width: 50%;
+  border-radius: 15px;
+}
+.price {
+  color: #d46502;
+  font-weight: 700;
+}
+.description {
+  line-height: 18px;
+  font-weight: 500;
+}
+.name {
+  font-size: 24px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-bottom: 2px solid #d46502;
+}
+@media (max-width: 768px) {
+  .service {
+    flex-direction: column-reverse;
+  }
+  .image {
+    width: 100%;
+  }
+}
