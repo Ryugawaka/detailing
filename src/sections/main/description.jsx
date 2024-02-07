@@ -10,7 +10,7 @@ const DescriptionBlock = () => {
         className={styles.image}
       />
       <div className={styles.info}>
-        <h2 className={styles.heading}>Лучший центр на юре России</h2>
+        <h2 className={styles.heading}>Лучший центр на юге России</h2>
         <p className={styles.text}>
           Детейлинг центр Auto<span className={styles.detail}>Detailing</span>
           RND - это место, где ваш автомобиль получит полный комплекс

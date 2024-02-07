@@ -1,7 +1,26 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Для запуска должен быть установлен Node.js 
+https://nodejs.org/en 
 
+порядок запуска проекта 
+
+npm i - для установки зависимостей
+npm start - для запуска проекта
+
+
+## Список используемых библиотек
+
+React - для упрощения разработки (возможной поддержки) сайта
+
+react-router-dom - для маршрутизации
+
+в качестве стилизации использовался модульный css
+
+
+## Данные
+список услуг можно посмотреть\поменять в фаиле src/helpers.js
 ## Available Scripts
 
 In the project directory, you can run:
